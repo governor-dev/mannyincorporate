@@ -4,20 +4,55 @@
     <link rel= "stylesheet" href="manny.css">
   </head>
   <body>
-    <h1>Contact us</h1>
+    <div>
+    <a href="index.html">
+      <img src="ManNY Inc..png" width="50" class="logo">
+    </a>
 
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutus.html">About us</a></li>
-      <li><a href="ourmission.html">Our Misson</a></li>
-      <li><a href="contactus.html">Contact us</a></li>
-    </ul>
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About us</a>
+      <a href="ourmission.html">Our Mission</a>
+      <a href="contactus.html">Contact us</a>
+    </div>
 
-    <p><h3>Get in touch with us </h3> <br />
-    Phone: 09157778108<br />
+      <h1>Contact us</h1>
 
-    Email: info@mannyincorporations.org<br />
-
-    Address: Agbowo, UI, Ibadan, Oyo State</p>
+    <label for="title"> Exact title in original language </label> 
+  <input type="text" id="title" maxlength="10" minlength="5" required> </br>
+  <label for="degree"> Title of the degree/diploma in English or French language e.g. Bachelor in Law </label>
+  <input type="text" id="degree" required> </br>
+  <label for="degree">Degree/Diploma obtained</label>
+  <label for="radio"> How old are you?</label>
+  <input type="number" id="age" /> <br />
+  <label for="password">Input your password </label>
+  <input type="password" id="password"> <br />
+  <label for="color"> What's your favourite colour? </label>
+  <input type="color" id="color"> <br />
+  Degree/Diploma Obtained 
+    <label for="yes">Yes</label>
+    <input type="radio" name="yes" id="yes"/>
+    <label for="no">No</label>
+    <input type="radio" name="no" id="no" > <br />
+  <label for="file"> Upload your document </label>
+  <input type="file" id="file"> <br />
+  <label for="terms"> I agree to terms and conditions </label>
+  <input type="checkbox" id="terms"> <br />
+  
+  <label for="country"> Select your country </label> </br>
+    <select name="country" id="country"
+    <option value="">Choose your country</option>
+    <option value="nigeria">Nigeria</option>
+    <option value="ghana">Ghana</option>
+    <option value="togo">Togo</option>
+    <option value="benin">Benin</option>
+    <option value="tanzania">Tanzania</option>
+  </select> <br />
+    <label for="comment">Your Comment</label>
+    <textarea name="comment" id="comment" cols="20" rows="1"></textarea> <br />
+    Enrollment Status 
+    <label for="full time">Full Time</label>
+    <input type="radio" name="full time" id="full time"/>
+    <label for="part time">Part Time</label>
+    <input type="radio" name="part time" id="part time" >
   </body>
 </html>
