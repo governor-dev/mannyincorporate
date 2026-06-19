@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="manny.css">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.bg {
+  height: 100vh; /* full screen height */
+  background: url('https://images.unsplash.com/photo-1483664852095-6cc687082090') no-repeat center/cover;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.login-box {
+  width: 320px;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  color: white;
+  text-align: center;
+}
+.input-group {
+  margin: 30px 0;
+  text-align: left;
+}
+
+.input-group label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.input-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.input-group input:focus {
+  border-bottom: 2px solid #a18cd1; /* purple glow when you click */
+}
+  </style>
+</head>
+<body>
+    <div>
+      <a href="index.html">
+      <img src="ManNY Inc..png" width="50" class="logo">
+      </a>
+
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About us</a>
+      <a href="ourmission.html">Our Mission</a>
+      <a href="contactus.html">Contact us</a>
+      <a href="login.html">Login</a>
+    </div>
+
+  <div class="bg">
+    <div class="login-box">
+      <h2>Login</h2>
+    </div>
+  </div>
+
+  <div class="login-box">
+  <h2>Login</h2>
+  
+  <form>
+    <div class="input-group">
+      <label>Email</label>
+      <input type="email" required>
+    </div>
+    
+    <div class="input-group">
+      <label>Password</label>
+      <input type="password" required>
+    </div>
+  </form>
+</div>
+</body>
+</html>
